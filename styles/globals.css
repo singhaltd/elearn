@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities
+
+@font-face {
+    font-family: 'NotoSansLao';
+    src: url('notosanslao-light-webfont.woff2') format('woff2'),
+         url('notosanslao-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*,body,html,span,h6 {
+    font-family: 'Noto Sans Lao'!important;
+}
