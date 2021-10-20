@@ -44,58 +44,60 @@ export default function Home() {
             <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80" alt="" />
           </div>
         </div>
-        <div className="grid gap-4 items-center justify-center">
+        <section className="container  mx-auto">
 
-          {
-            [...Array(4)].map(it => {
-              return (
-                <div>
+          <div className="w-full flex items-center justify-center gap-4">
+            {
+              [...Array(4)].map(it => {
+                return (
                   <div className="xl:w-1/4 sm:w-1/2 w-full 2xl:w-1/5 flex flex-col items-center rounded-lg">
                     <div class="card bordered">
                       <figure>
                         <img src="https://picsum.photos/id/1005/400/250" />
                       </figure>
-                      <div class="card-body">
-                        <h2 class="card-title">Top image
-                          <div class="badge mx-2 badge-secondary">NEW</div>
-                        </h2>
-                        <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
-                        <div class="justify-end card-actions">
-                          <button class="btn btn-secondary">More info</button>
+                      <div class="card-body px-4 pt-5">
+                        <h6 class="card-title text-sm">ພັດທະນາ Mobile App ຂ່າວສານ ດ້ວຍ Flutter + ນຳໃຊ້ Laravel 8 ຂຽນ API ແລະ ຖານຂໍ້ມູນ MySQL
+                        </h6>
+                        <p className="text-xs">ຫຼັກສູດນີ້ ເປັນຫຼັກສູດ ພັດທະນາ ໂມບາຍແອັບ ຂ່າວສານ ດ້ວຍ Flutter 2021 ໂດຍນຳໃຊ້ Laravel 8.xx ເພື່ອຂຽນ API ດຶງຂໍ້ມູນຈາກ MySQL.</p>
+                        <div class="flex items-center mb-2 py-2">
+                          <img class='w-10 h-10 object-cover rounded-full' alt='User avatar' src='https://images.unsplash.com/photo-1477118476589-bff2c5c4cfbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&q=200' />
+
+                          <div class="pl-3">
+                            <div class="font-small">
+                              Jessica White
+                            </div>
+                            <div class="text-gray-600 text-sm">
+                              (100K)
+                            </div>
+                          </div>
                         </div>
+                        <div class="flex items-center ml-2">
+                          <svg class="w-3 h-3 fill-current text-yellow-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" /></svg>
+                          <svg class="w-3 h-3 fill-current text-yellow-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" /></svg>
+                          <svg class="w-3 h-3 fill-current text-yellow-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" /></svg>
+                          <svg class="w-3 h-3 fill-current text-yellow-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" /></svg>
+                          <svg class="w-3 h-3 fill-current text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" /></svg>
+                        </div>
+                        <div class="flex items-center card-actions">
+                          <div>
+                            <div className="justify-start">
+                              asdfasd
+                            </div>
+                          </div>
+                          <div>
+                            <button class="btn btn-sm btn-secondary text-small rounded-lg">More info</button>
+                          </div>
+                        </div>
+
                       </div>
                     </div>
                   </div>
-                </div>
-              )
-            })
-          }
+                )
+              })
+            }
 
-        </div>
-        <div className="w-full flex items-center justify-center">
-          <div className="xl:w-1/4 sm:w-1/2 w-full 2xl:w-1/5 flex flex-col items-center py-16 md:py-12 bg-gradient-to-r from-indigo-700 to-purple-500 rounded-lg">
-            <div className="w-full flex items-center justify-center">
-              <div className="flex flex-col items-center">
-                <img src="https://cdn.tuk.dev/assets/templates/olympus/profile.png" alt="profile" />
-                <p className="mt-2 text-xs sm:text-sm md:text-base font-semibold text-center text-white">Ricardo Boveta</p>
-              </div>
-            </div>
-            <div className="flex items-center mt-7">
-              <div className>
-                <p className="text-xs text-gray-300">Products</p>
-                <p className="mt-2 text-base sm:text-lg md:text-xl 2xl:text-2xl text-gray-50">28</p>
-              </div>
-              <div className="ml-12">
-                <p className="text-xs text-gray-300">Revenue</p>
-                <p className="mt-2 text-base sm:text-lg md:text-xl 2xl:text-2xl text-gray-50">$2890</p>
-              </div>
-              <div className="ml-12">
-                <p className="text-xs text-gray-300">Average</p>
-                <p className="mt-2 text-base sm:text-lg md:text-xl 2xl:text-2xl text-gray-50">$169</p>
-              </div>
-            </div>
           </div>
-        </div>
+        </section>
       </main>
     </div>
   )
