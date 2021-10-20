@@ -62,23 +62,38 @@ export default function ModalLoginFrm() {
                                     as="h3"
                                     className="text-lg font-medium leading-6 text-gray-900"
                                 >
-                                    Payment successful
+                                    <h1 className="text-center">ເຂົ້າສູ່ລະບົບ</h1>
                                 </Dialog.Title>
                                 <div className="mt-2">
-                                    <p className="text-sm text-gray-500">
-                                        Your payment has been successfully submitted. We’ve sent you
-                                        an email with all of the details of your order.
-                                    </p>
+                                    <div className="grid grid-cols-1 gap-5">
+                                        <div class="form-control">
+                                            <label class="label">
+                                                <span class="label-text">ອີເມວ໌</span>
+                                            </label>
+                                            <input type="text" placeholder="ອີເມວ໌" class="input input-info input-bordered" />
+                                            {/* <label class="label">
+                                <span class="label-text-alt">Please enter data</span>
+                            </label> */}
+                                        </div>
+                                        <div class="form-control">
+                                            <label class="label">
+                                                <span class="label-text">ລະຫັດຜ່ານ</span>
+                                            </label>
+                                            <input type="text" placeholder="ລະຫັດຜ່ານ" class="input input-info input-bordered" />
+
+                                        </div>
+                                    </div>
                                 </div>
 
                                 <div className="mt-4">
                                     <button
                                         type="button"
-                                        className="inline-flex justify-center px-4 py-2 text-sm font-medium text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
+                                        className="inline-flex justify-center px-4 py-2 text-sm font-medium border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
                                         onClick={closeModal}
                                     >
-                                        Got it, thanks!
+                                        ເຂົ້າສູ່ລະບົບ
                                     </button>
+                                    
                                 </div>
                             </div>
                         </Transition.Child>

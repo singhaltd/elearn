@@ -10,11 +10,11 @@ export default function Courses() {
 
             <main>
                 <div class="flex items-center w-full px-4 py-10 bg-cover card bg-base-200">
-                    <div class="card w-full glass lg:card-side text-neutral-content">
+                    <div class="card  w-full glass lg:card-side text-neutral-content">
                         <figure class="p-6">
-                            <img src="https://picsum.photos/id/1005/300/200" class="rounded-lg shadow-lg" />
+                            <img src="https://picsum.photos/id/1005/300/200" class="rounded-lg z-1 shadow-lg" />
                         </figure>
-                        <div class="max-w-md card-body">
+                        <div class="max-w-md card-body z-1">
                             <h2 class="card-title">Glass</h2>
                             <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
                             <div class="card-actions">
