@@ -12,9 +12,6 @@ export default function Home() {
         <div class="relative bg-white overflow-hidden">
           <div class="max-w-7xl mx-auto">
             <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
-              <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
-                <polygon points="50,0 100,0 50,100 0,100" />
-              </svg>
               <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
                 <div class="sm:text-center lg:text-left">
                   <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
@@ -44,6 +41,27 @@ export default function Home() {
             <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80" alt="" />
           </div>
         </div>
+        
+        <div className="relative w-full bg-primary index-10">
+          <div className="max-w-7xl  mx-auto -mt-20 py-10">
+            <div className="grid grid-cols-4">
+              {
+                [...Array(4)].map(i => {
+                  return (
+                    <div className="card text-center">
+                      <div className="w-full justify-center item-center">
+                        <i>I</i>
+                        <h5 className="card-title">Hello world</h5>
+                        <p>kdsjadfklasdjfsaklfdjsak</p>
+                      </div>
+                    </div>
+                  )
+                })
+              }
+
+            </div>
+          </div>
+        </div>
         <section className="container  mx-auto">
 
           <div className="w-full flex items-center justify-center gap-4">
@@ -56,9 +74,9 @@ export default function Home() {
                         <img src="https://picsum.photos/id/1005/400/250" />
                       </figure>
                       <div class="card-body px-4 pt-5">
-                        <h6 class="card-title text-sm">ພັດທະນາ Mobile App ຂ່າວສານ ດ້ວຍ Flutter + ນຳໃຊ້ Laravel 8 ຂຽນ API ແລະ ຖານຂໍ້ມູນ MySQL
+                        <h6 class="card-title text-sm text-justify">ພັດທະນາ Mobile App ຂ່າວສານ ດ້ວຍ Flutter + ນຳໃຊ້ Laravel 8 ຂຽນ API ແລະ ຖານຂໍ້ມູນ MySQL
                         </h6>
-                        <p className="text-xs">ຫຼັກສູດນີ້ ເປັນຫຼັກສູດ ພັດທະນາ ໂມບາຍແອັບ ຂ່າວສານ ດ້ວຍ Flutter 2021 ໂດຍນຳໃຊ້ Laravel 8.xx ເພື່ອຂຽນ API ດຶງຂໍ້ມູນຈາກ MySQL.</p>
+                        <p className="text-xs text-justify">ຫຼັກສູດນີ້ ເປັນຫຼັກສູດ ພັດທະນາ ໂມບາຍແອັບ ຂ່າວສານ ດ້ວຍ Flutter 2021 ໂດຍນຳໃຊ້ Laravel 8.xx ເພື່ອຂຽນ API ດຶງຂໍ້ມູນຈາກ MySQL.</p>
                         <div class="flex items-center mb-2 py-2">
                           <img class='w-10 h-10 object-cover rounded-full' alt='User avatar' src='https://images.unsplash.com/photo-1477118476589-bff2c5c4cfbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&q=200' />
 

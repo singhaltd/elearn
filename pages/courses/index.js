@@ -23,6 +23,7 @@ export default function Courses() {
                         </div>
                     </div>
                 </div>
+      
                 <section className="mx-auto max-w-7xl">
 
                     <div className="w-full grid grid-cols-4 gap-4">
@@ -77,7 +78,7 @@ export default function Courses() {
                     </div>
                 </section>
 
-                
+
             </main>
         </div>
     )
